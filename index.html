@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>海风学社</title>
+    <title>海风学社(1)</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-With-Button-icons.css">
     <link rel="stylesheet" href="assets/css/Projects-Grid-Horizontal-images.css">
@@ -12,14 +12,29 @@
 </head>
 
 <body style="position: static;">
+
+    <script src="assets/js/untitled.js"></script>
+
     <nav class="navbar navbar-expand-md bg-body py-3" style="border-bottom-width: 1px;border-bottom-style: solid;width: 100%;position: relative;height: 100px;">
-        <div class="container"><span style="width: 60px;background: url(&quot;assets/img/haifeng%20.png&quot;) center / cover repeat;height: 60px;"></span><a class="navbar-brand d-flex align-items-center" href="#"><span style="font-size: 30px;"><strong>海风学社宣传网</strong></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><span style="width: 60px;background: url(&quot;assets/img/haifeng%20.png&quot;) center / cover repeat;height: 60px;"></span><a class="navbar-brand d-flex align-items-center" href="#"><span style="font-size: 30px;"><strong>海风学社</strong></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#" style="font-size: 20px;"><strong>资讯</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="font-size: 20px;"><strong>课程推荐</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="font-size: 20px;"><strong>新生软件包</strong></a></li>
-                </ul><button class="btn btn-primary" type="button" style="font-size: 20px;"><strong>加入我们</strong></button>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.runoob.com/html/html-tutorial.html" style="font-size: 20px;"><strong>课程推荐</strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.123pan.com/s/FB0bjv-T6MJ3?pwd=DLMU" style="font-size: 20px;"><strong>新生软件包</strong></a></li>
+                </ul>
+                <button class="btn btn-primary" type="button" style="font-size: 20px;" id="myBtn">
+                    <strong>加入我们</strong>
+                </button>
+                
+            <div id="myModal" class="modal">
+                <!-- 弹窗内容 -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <img src="assets/img/学社主体.jpeg" alt="图片1" class="modal-image">
+                </div>
+            </div>
+
             </div>
         </div>
     </nav>
@@ -44,7 +59,7 @@
         <div class="row gy-4 row-cols-1 row-cols-md-2">
             <div class="col">
                 <div class="d-flex flex-column flex-lg-row">
-                    <div style="width: 202.458px;"><img class="rounded img-fluid d-block fit-cover" style="height: 200px;width: 202.458px;" src="assets/img/软件部.png" width="151" height="200"></div>
+                    <div style="width: 202.458px;"><img class="rounded img-fluid d-block fit-cover" style="height: 200px;width: 202.458px;" src="assets/img/软件部.jpg" width="151" height="200"></div>
                     <div class="py-4 py-lg-0 px-lg-4" style="width: 433.542px;">
                         <h4><strong>软件部</strong></h4>
                         <p style="height: 150px;">海风学社软件部专注于提升同学们的C/C++编程能力，深入掌握数据结构与算法，以解决实际问题，并培养编程与算法思维。我们学习超出本科课程范围的编程知识，为就业做好充分准备，并通过参与大型编程竞赛争取获得高分、奖学金、保研及企业内推资格。</p>
@@ -101,51 +116,88 @@
                     <div style="width: 280.458px;"><img class="rounded img-fluid d-block fit-cover" style="height: 200px;width: 202.458px;" src="assets/img/人工智能部.png"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4><strong>人工智能部</strong></h4>
-                        <p>人工智能部由上届社长亲自领军，是一个精英汇聚的私密团队，不对外开放招募。人工智能部集结了社团的顶尖人才，专注于投身各类竞赛，致力于在科技竞赛的舞台上绽放光芒。.</p>
+                        <p>人工智能部由上届社长亲自领军，是一个精英汇聚的私密团队，不对外开放招募。人工智能部集结了社团的顶尖人才，专注于投身各类竞赛，致力于在科技竞赛的舞台上绽放光芒。(<strong>特别提醒：今年人工智能部不对外招生</strong>)</p>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container py-4 py-lg-5">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                        <h3 class="fs-6">服务</h3>
-                        <ul class="list-unstyled">
-                            <li><a class="link-secondary" href="https://mp.weixin.qq.com/s/ipw5YZqf0FpX0vnGtM4-7A">招生链接</a></li>
-                            <li><a class="link-secondary" href="#">资讯</a></li>
-                            <li><a class="link-secondary" href="https://mp.weixin.qq.com/s/gyTW6NQDeEoB1U7X6I9SoA">培训计划(2021版)</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                        <h3 class="fs-6">关于</h3>
-                        <ul class="list-unstyled">
-                            <li><a class="link-secondary" href="https://mp.weixin.qq.com/s/fNew2c840h0BelLyQgZidw">海风学社</a></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                        <h3 class="fs-6">学校官网</h3>
-                        <ul class="list-unstyled">
-                            <li><a class="link-secondary" href="https://www.dlmu.edu.cn/">大连海事大学</a></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
-                        <div class="fw-bold d-flex align-items-center mb-2"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center bs-icon me-2" style="background: url(&quot;assets/img/haifeng%20.png&quot;);background-size: cover;"></span><span>海风学社</span></div>
-                        <p class="text-muted copyright">本网页由海风学社网络部搭建完成。</p>
-                    </div>
+    </div>
+    <div class="container" style="text-align: center;">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2><strong>加入我们</strong></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <picture><img style="width: 360px;height: 800px;margin: 5px -12px;" src="assets/img/学社主体.jpeg"></picture>
+            </div>
+
+        </div>
+        <div class="row" style="margin: 5px -12px;">
+            <div class="col">
+                <picture><img src="assets/img/软件部.jpg" style="width: 300px;height: 450px;border-style: solid;border-color: var(--bs-body-color);"></picture>
+            </div>
+            <div class="col">
+                <picture><img style="width: 300px;height: 450px;border-style: solid;border-color: var(--bs-body-color);" src="assets/img/维修部.jpeg"></picture>
+            </div>
+            <div class="col">
+                <picture><img style="width: 300px;height: 450px;border-style: solid;border-color: var(--bs-emphasis-color);" src="assets/img/网络部.jpeg"></picture>
+            </div>
+        </div>
+        <div class="row" style="margin: 5px -12px;">
+            <div class="col">
+                <picture><img src="assets/img/移动开发.jpeg" style="width: 300px;height: 450px;border-style: solid;border-color: var(--bs-body-color);"></picture>
+            </div>
+            <div class="col">
+                <picture><img style="width: 300px;height: 450px;border-style: solid;border-color: var(--bs-body-color);" src="assets/img/设计.jpeg"></picture>
+            </div>
+            <div class="col">
+                <picture><img style="width: 300px;height: 450px;border-style: solid;" src="assets/img/新媒体.jpeg"></picture>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6">服务</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="link-secondary" href="https://mp.weixin.qq.com/s/ipw5YZqf0FpX0vnGtM4-7A">招生链接</a></li>
+                        <li></li>
+                        <li><a class="link-secondary" href="https://mp.weixin.qq.com/s/gyTW6NQDeEoB1U7X6I9SoA">培训计划(2021版)</a></li>
+                    </ul>
                 </div>
-                <hr>
-                <div class="d-flex justify-content-between align-items-center pt-3">
-                    <p class="text-muted mb-0">Copyright © 2024 Brand</p>
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6">关于</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="link-secondary" href="https://mp.weixin.qq.com/s/fNew2c840h0BelLyQgZidw">海风学社</a></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6">学校官网</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="link-secondary" href="https://www.dlmu.edu.cn/">大连海事大学</a></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
+                    <div class="fw-bold d-flex align-items-center mb-2"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center bs-icon me-2" style="background: url(&quot;assets/img/haifeng%20.png&quot;);background-size: cover;"></span><span>海风学社</span></div>
+                    <p class="text-muted copyright">本网页由海风学社网络部搭建完成。软件包的提取码是DLMU</p>
                 </div>
             </div>
-        </footer>
-    </div>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center pt-3">
+                <p class="text-muted mb-0">Copyright © 2024 Brand</p>
+            </div>
+        </div>
+    </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/untitled-1.js"></script>
+    <script src="assets/js/untitled.js"></script>
 </body>
 
 </html>

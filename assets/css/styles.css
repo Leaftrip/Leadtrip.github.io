@@ -7,3 +7,45 @@ html, body {
   position: relative;
 }
 
+/* 弹窗（背景） */
+.modal {
+  display: none; /* 默认隐藏 */
+  position: fixed; /* 固定位置 */
+  z-index: 1; /* 位于最上层 */
+  left: 0;
+  top: 0;
+  width: 100%; /* 全宽 */
+  height: 100%; /* 全高 */
+  overflow: auto; /* 如果内容溢出，则显示滚动条 */
+  background-color: rgba(0,0,0,0.4); /* 半透明背景 */
+}
+
+/* 弹窗内容 */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15%从上到下居中 */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* 宽度 */
+}
+
+/* 关闭按钮 */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 弹窗中的图片 */
+.modal-image {
+  width: 100%;
+  height: auto;
+}
